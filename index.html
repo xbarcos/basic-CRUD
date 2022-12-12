@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUD</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css">
+
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <span class="text-align-center">Cadastro TI para a Vida</span>
+    </div>
+    <div class="m-3">
+      <form id="#formulario">
+        <div class="form-group">
+          <label for="m-name">Nome</label>
+          <input type="text" class="form-control" id="name" placeholder="Digite o Nome">
+        </div>
+        <div class="form-group">
+          <label for="m-role">Função</label>
+          <input type="text" class="form-control" id="role" placeholder="Digite a Função">
+        </div>
+        <button type="submit" class="btn btn-primary" id="btnSubmit">Submit</button>
+      </form>
+    </div>
+    <div class="divTable" id="divTable">
+      <table>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Função</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -40,15 +40,6 @@ button {
   word-break: break-all;
 }
 
-#new {
-  font-size: 16px;
-  padding: 8px;
-  border-radius: 5px;
-  border: none;
-  color: white;
-  background-color: rgb(57, 57, 226);
-}
-
 .divTable {
   padding: 10px;
   width: auto; 
@@ -131,7 +122,7 @@ tbody tr td.acao {
   td button i:first-child {
     margin-right: 0;
   }
-
+}
 td button {
   border: none;
   outline: none;
